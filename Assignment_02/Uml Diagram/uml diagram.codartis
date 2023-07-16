@@ -1,0 +1,1020 @@
+﻿{
+  "Version": 1,
+  "Properties": {
+    "AreNodeDescriptionsVisible": "True"
+  },
+  "Nodes": [
+    {
+      "Id": "1",
+      "Name": "SavingAccount",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-07-16T20:27:54.0850972Z",
+      "AbsoluteTopLeft": "308.3737,324.4793",
+      "HeaderContentSize": "102,52",
+      "NodeTotalSize": "250.2067,141",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "248.2067,88",
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "SavingAccount",
+        "FullName": "class Assignment_02.SavingAccount",
+        "Symbols": [
+          "Assignment_02.SavingAccount"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "2",
+      "Name": "Transaction",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-07-16T20:27:54.2142123Z",
+      "AbsoluteTopLeft": "42.6937,-300.5207",
+      "HeaderContentSize": "102,52",
+      "NodeTotalSize": "148.9967,119",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "146.9967,66",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "Transaction",
+        "FullName": "class Assignment_02.Transaction",
+        "Symbols": [
+          "Assignment_02.Transaction"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "3",
+      "Name": "ITransaction",
+      "Stereotype": "Interface",
+      "CreatedAtUtc": "2023-07-16T20:27:54.2231891Z",
+      "AbsoluteTopLeft": "-3.132,147.4793",
+      "HeaderContentSize": "102,52",
+      "NodeTotalSize": "250.2067,97",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "248.2067,44",
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "ITransaction",
+        "FullName": "interface Assignment_02.ITransaction",
+        "Symbols": [
+          "Assignment_02.ITransaction"
+        ],
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Internal",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "4",
+      "Name": "BankAccount",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-07-16T20:27:54.2251830Z",
+      "AbsoluteTopLeft": "-7.6021,-131.5207",
+      "HeaderContentSize": "102,52",
+      "NodeTotalSize": "225.72,229",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "223.72,176",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "BankAccount",
+        "FullName": "class Assignment_02.BankAccount",
+        "Symbols": [
+          "Assignment_02.BankAccount"
+        ],
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "5",
+      "Name": "CheckingAccount",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-07-16T20:27:54.2261804Z",
+      "AbsoluteTopLeft": "-340.8316,324.4793",
+      "HeaderContentSize": "108.2567,52",
+      "NodeTotalSize": "298.9967,141",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "296.9967,88",
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "CheckingAccount",
+        "FullName": "class Assignment_02.CheckingAccount",
+        "Symbols": [
+          "Assignment_02.CheckingAccount"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "6",
+      "Name": "Program",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-07-16T20:27:54.2281748Z",
+      "AbsoluteTopLeft": "-211.5221,-97.4758",
+      "HeaderContentSize": "102,52",
+      "NodeTotalSize": "153.92,75",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "151.92,22",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "Program",
+        "FullName": "class Assignment_02.Program",
+        "Symbols": [
+          "Assignment_02.Program"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Internal",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "7",
+      "Name": "LoanAccount",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-07-16T20:27:54.2301699Z",
+      "AbsoluteTopLeft": "8.167,324.4794",
+      "HeaderContentSize": "102,52",
+      "NodeTotalSize": "250.2067,141",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "248.2067,88",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "LoanAccount",
+        "FullName": "class Assignment_02.LoanAccount",
+        "Symbols": [
+          "Assignment_02.LoanAccount"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Internal",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "8",
+      "Name": "Bank",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-07-16T20:27:54.2311679Z",
+      "AbsoluteTopLeft": "295.3621,-92.2544",
+      "HeaderContentSize": "102,52",
+      "NodeTotalSize": "273.19,141",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "271.19,88",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "Bank",
+        "FullName": "class Assignment_02.Bank",
+        "Symbols": [
+          "Assignment_02.Bank"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "9",
+      "ParentId": "2",
+      "Name": "decimal Amount",
+      "Stereotype": "Property",
+      "CreatedAtUtc": "2023-07-16T20:28:13.0252834Z",
+      "AbsoluteTopLeft": "43.6937,-248.5207",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "116.1833,22",
+      "HeaderMinSize": "146.9967,22",
+      "NodeTotalSize": "146.9967,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "Amount",
+        "FullName": "public decimal Amount { get; private set; }",
+        "Symbols": [
+          "Assignment_02.Transaction.Amount"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "10",
+      "ParentId": "2",
+      "Name": "string Description",
+      "Stereotype": "Property",
+      "CreatedAtUtc": "2023-07-16T20:28:14.1519460Z",
+      "AbsoluteTopLeft": "43.6937,-226.5207",
+      "RelativeTopLeft": "0,22",
+      "HeaderContentSize": "122.6367,22",
+      "HeaderMinSize": "146.9967,22",
+      "NodeTotalSize": "146.9967,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "Description",
+        "FullName": "public string Description { get; private set; }",
+        "Symbols": [
+          "Assignment_02.Transaction.Description"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "11",
+      "ParentId": "2",
+      "Name": "string TransactionType",
+      "Stereotype": "Property",
+      "CreatedAtUtc": "2023-07-16T20:28:15.4223661Z",
+      "AbsoluteTopLeft": "43.6937,-204.5207",
+      "RelativeTopLeft": "0,44",
+      "HeaderContentSize": "146.9967,22",
+      "HeaderMinSize": "146.9967,22",
+      "NodeTotalSize": "146.9967,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "TransactionType",
+        "FullName": "public string TransactionType { get; private set; }",
+        "Symbols": [
+          "Assignment_02.Transaction.TransactionType"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "12",
+      "ParentId": "8",
+      "Name": "Dictionary<int, BankAccount> accounts",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2023-07-16T20:28:21.0135739Z",
+      "AbsoluteTopLeft": "296.3621,-40.2544",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "238.3067,22",
+      "HeaderMinSize": "271.19,22",
+      "NodeTotalSize": "271.19,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "accounts",
+        "FullName": "private Dictionary<int, BankAccount> accounts",
+        "Symbols": [
+          "Assignment_02.Bank.accounts"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "13",
+      "ParentId": "8",
+      "Name": "void AddAccount(BankAccount account)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-07-16T20:28:22.5693357Z",
+      "AbsoluteTopLeft": "296.3621,-18.2544",
+      "RelativeTopLeft": "0,22",
+      "HeaderContentSize": "242.0533,22",
+      "HeaderMinSize": "271.19,22",
+      "NodeTotalSize": "271.19,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "AddAccount",
+        "FullName": "public void AddAccount(BankAccount account)",
+        "Symbols": [
+          "Assignment_02.Bank.AddAccount(Assignment_02.BankAccount)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "14",
+      "ParentId": "8",
+      "Name": "void DisplayAllAccounts()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-07-16T20:28:23.6375605Z",
+      "AbsoluteTopLeft": "296.3621,3.7456",
+      "RelativeTopLeft": "0,44",
+      "HeaderContentSize": "162.7133,22",
+      "HeaderMinSize": "271.19,22",
+      "NodeTotalSize": "271.19,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "DisplayAllAccounts",
+        "FullName": "public void DisplayAllAccounts()",
+        "Symbols": [
+          "Assignment_02.Bank.DisplayAllAccounts()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "15",
+      "ParentId": "8",
+      "Name": "BankAccount GetAccount(int accountnumber)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-07-16T20:28:24.7674005Z",
+      "AbsoluteTopLeft": "296.3621,25.7456",
+      "RelativeTopLeft": "0,66",
+      "HeaderContentSize": "271.19,22",
+      "HeaderMinSize": "271.19,22",
+      "NodeTotalSize": "271.19,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "GetAccount",
+        "FullName": "public BankAccount GetAccount(int accountnumber)",
+        "Symbols": [
+          "Assignment_02.Bank.GetAccount(System.Int32)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "16",
+      "ParentId": "4",
+      "Name": "List<Transaction> TransactionHistory",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2023-07-16T20:28:29.8985347Z",
+      "AbsoluteTopLeft": "-6.6021,-79.5207",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "223.72,22",
+      "HeaderMinSize": "223.72,22",
+      "NodeTotalSize": "223.72,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "TransactionHistory",
+        "FullName": "public List<Transaction> TransactionHistory",
+        "Symbols": [
+          "Assignment_02.BankAccount.TransactionHistory"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "17",
+      "ParentId": "4",
+      "Name": "string AccountHolderName",
+      "Stereotype": "Property",
+      "CreatedAtUtc": "2023-07-16T20:28:32.6749516Z",
+      "AbsoluteTopLeft": "-6.6021,-57.5207",
+      "RelativeTopLeft": "0,22",
+      "HeaderContentSize": "173.5567,22",
+      "HeaderMinSize": "223.72,22",
+      "NodeTotalSize": "223.72,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "AccountHolderName",
+        "FullName": "private string AccountHolderName { get; set; }",
+        "Symbols": [
+          "Assignment_02.BankAccount.AccountHolderName"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "18",
+      "ParentId": "4",
+      "Name": "int AccountNumber",
+      "Stereotype": "Property",
+      "CreatedAtUtc": "2023-07-16T20:28:34.1735147Z",
+      "AbsoluteTopLeft": "-6.6021,-35.5207",
+      "RelativeTopLeft": "0,44",
+      "HeaderContentSize": "133.16,22",
+      "HeaderMinSize": "223.72,22",
+      "NodeTotalSize": "223.72,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "AccountNumber",
+        "FullName": "private int AccountNumber { get; set; }",
+        "Symbols": [
+          "Assignment_02.BankAccount.AccountNumber"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "19",
+      "ParentId": "4",
+      "Name": "decimal Balance",
+      "Stereotype": "Property",
+      "CreatedAtUtc": "2023-07-16T20:28:35.2138254Z",
+      "AbsoluteTopLeft": "-6.6021,-13.5207",
+      "RelativeTopLeft": "0,66",
+      "HeaderContentSize": "114.04,22",
+      "HeaderMinSize": "223.72,22",
+      "NodeTotalSize": "223.72,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "Balance",
+        "FullName": "private decimal Balance { get; set; }",
+        "Symbols": [
+          "Assignment_02.BankAccount.Balance"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "20",
+      "ParentId": "4",
+      "Name": "decimal CalculateInterest()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-07-16T20:28:38.3976984Z",
+      "AbsoluteTopLeft": "-6.6021,8.4793",
+      "RelativeTopLeft": "0,88",
+      "HeaderContentSize": "168.74,22",
+      "HeaderMinSize": "223.72,22",
+      "NodeTotalSize": "223.72,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "CalculateInterest",
+        "FullName": "public virtual decimal CalculateInterest()",
+        "Symbols": [
+          "Assignment_02.BankAccount.CalculateInterest()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "21",
+      "ParentId": "4",
+      "Name": "void Deposit(decimal amount)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-07-16T20:28:40.3706729Z",
+      "AbsoluteTopLeft": "-6.6021,30.4793",
+      "RelativeTopLeft": "0,110",
+      "HeaderContentSize": "188.6667,22",
+      "HeaderMinSize": "223.72,22",
+      "NodeTotalSize": "223.72,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "Deposit",
+        "FullName": "public virtual void Deposit(decimal amount)",
+        "Symbols": [
+          "Assignment_02.BankAccount.Deposit(System.Decimal)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "22",
+      "ParentId": "4",
+      "Name": "void PrintTransactionHistory()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-07-16T20:28:44.8449835Z",
+      "AbsoluteTopLeft": "-6.6021,52.4793",
+      "RelativeTopLeft": "0,132",
+      "HeaderContentSize": "184.38,22",
+      "HeaderMinSize": "223.72,22",
+      "NodeTotalSize": "223.72,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "PrintTransactionHistory",
+        "FullName": "public void PrintTransactionHistory()",
+        "Symbols": [
+          "Assignment_02.BankAccount.PrintTransactionHistory()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "23",
+      "ParentId": "4",
+      "Name": "void Withdraw(decimal amount)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-07-16T20:28:46.0802494Z",
+      "AbsoluteTopLeft": "-6.6021,74.4793",
+      "RelativeTopLeft": "0,154",
+      "HeaderContentSize": "198.82,22",
+      "HeaderMinSize": "223.72,22",
+      "NodeTotalSize": "223.72,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "Withdraw",
+        "FullName": "public virtual void Withdraw(decimal amount)",
+        "Symbols": [
+          "Assignment_02.BankAccount.Withdraw(System.Decimal)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "24",
+      "ParentId": "6",
+      "Name": "void Main(string[] args)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-07-16T20:28:49.5303302Z",
+      "AbsoluteTopLeft": "-210.5221,-45.4758",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "151.92,22",
+      "HeaderMinSize": "151.92,22",
+      "NodeTotalSize": "151.92,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "Main",
+        "FullName": "private static void Main(string[] args)",
+        "Symbols": [
+          "Assignment_02.Program.Main(System.String[])"
+        ],
+        "IsDescriptionVisible": true,
+        "IsStatic": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "25",
+      "ParentId": "3",
+      "Name": "void ExecuteTransaction(decimal amount)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-07-16T20:28:56.7082598Z",
+      "AbsoluteTopLeft": "-2.132,199.4793",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "248.2067,22",
+      "HeaderMinSize": "248.2067,22",
+      "NodeTotalSize": "248.2067,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "ExecuteTransaction",
+        "FullName": "void ExecuteTransaction(decimal amount)",
+        "Symbols": [
+          "Assignment_02.ITransaction.ExecuteTransaction(System.Decimal)"
+        ],
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "26",
+      "ParentId": "3",
+      "Name": "void PrintTransaction()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-07-16T20:28:58.3109268Z",
+      "AbsoluteTopLeft": "-2.132,221.4793",
+      "RelativeTopLeft": "0,22",
+      "HeaderContentSize": "146.7833,22",
+      "HeaderMinSize": "248.2067,22",
+      "NodeTotalSize": "248.2067,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "PrintTransaction",
+        "FullName": "void PrintTransaction()",
+        "Symbols": [
+          "Assignment_02.ITransaction.PrintTransaction()"
+        ],
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "27",
+      "ParentId": "5",
+      "Name": "decimal OverDraftLimit",
+      "Stereotype": "Property",
+      "CreatedAtUtc": "2023-07-16T20:29:02.0614817Z",
+      "AbsoluteTopLeft": "-339.8316,376.4793",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "151.0567,22",
+      "HeaderMinSize": "296.9967,22",
+      "NodeTotalSize": "296.9967,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "OverDraftLimit",
+        "FullName": "public decimal OverDraftLimit { get; private set; }",
+        "Symbols": [
+          "Assignment_02.CheckingAccount.OverDraftLimit"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "28",
+      "ParentId": "5",
+      "Name": "void ExecuteTransaction(decimal amount)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-07-16T20:29:03.3821664Z",
+      "AbsoluteTopLeft": "-339.8316,398.4793",
+      "RelativeTopLeft": "0,22",
+      "HeaderContentSize": "248.2067,22",
+      "HeaderMinSize": "296.9967,22",
+      "NodeTotalSize": "296.9967,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "ExecuteTransaction",
+        "FullName": "public void ExecuteTransaction(decimal amount)",
+        "Symbols": [
+          "Assignment_02.CheckingAccount.ExecuteTransaction(System.Decimal)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "29",
+      "ParentId": "5",
+      "Name": "void PrintTransaction()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-07-16T20:29:04.9404198Z",
+      "AbsoluteTopLeft": "-339.8316,420.4793",
+      "RelativeTopLeft": "0,44",
+      "HeaderContentSize": "146.7833,22",
+      "HeaderMinSize": "296.9967,22",
+      "NodeTotalSize": "296.9967,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "PrintTransaction",
+        "FullName": "public void PrintTransaction()",
+        "Symbols": [
+          "Assignment_02.CheckingAccount.PrintTransaction()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "30",
+      "ParentId": "5",
+      "Name": "void Withdraw(decimal amount, string description)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-07-16T20:29:08.3789537Z",
+      "AbsoluteTopLeft": "-339.8316,442.4793",
+      "RelativeTopLeft": "0,66",
+      "HeaderContentSize": "296.9967,22",
+      "HeaderMinSize": "296.9967,22",
+      "NodeTotalSize": "296.9967,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "Withdraw",
+        "FullName": "public override void Withdraw(decimal amount, string description)",
+        "Symbols": [
+          "Assignment_02.CheckingAccount.Withdraw(System.Decimal, System.String)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "31",
+      "ParentId": "7",
+      "Name": "decimal InterestRate",
+      "Stereotype": "Property",
+      "CreatedAtUtc": "2023-07-16T20:29:10.3086634Z",
+      "AbsoluteTopLeft": "9.167,376.4794",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "136.9933,22",
+      "HeaderMinSize": "248.2067,22",
+      "NodeTotalSize": "248.2067,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "InterestRate",
+        "FullName": "public decimal InterestRate { get; private set; }",
+        "Symbols": [
+          "Assignment_02.LoanAccount.InterestRate"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "32",
+      "ParentId": "7",
+      "Name": "decimal CalculateInterest()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-07-16T20:29:13.8191114Z",
+      "AbsoluteTopLeft": "9.167,398.4794",
+      "RelativeTopLeft": "0,22",
+      "HeaderContentSize": "168.74,22",
+      "HeaderMinSize": "248.2067,22",
+      "NodeTotalSize": "248.2067,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "CalculateInterest",
+        "FullName": "public override decimal CalculateInterest()",
+        "Symbols": [
+          "Assignment_02.LoanAccount.CalculateInterest()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "33",
+      "ParentId": "7",
+      "Name": "void ExecuteTransaction(decimal amount)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-07-16T20:29:15.4180925Z",
+      "AbsoluteTopLeft": "9.167,420.4794",
+      "RelativeTopLeft": "0,44",
+      "HeaderContentSize": "248.2067,22",
+      "HeaderMinSize": "248.2067,22",
+      "NodeTotalSize": "248.2067,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "ExecuteTransaction",
+        "FullName": "public void ExecuteTransaction(decimal amount)",
+        "Symbols": [
+          "Assignment_02.LoanAccount.ExecuteTransaction(System.Decimal)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "34",
+      "ParentId": "7",
+      "Name": "void PrintTransaction()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-07-16T20:29:16.6035557Z",
+      "AbsoluteTopLeft": "9.167,442.4794",
+      "RelativeTopLeft": "0,66",
+      "HeaderContentSize": "146.7833,22",
+      "HeaderMinSize": "248.2067,22",
+      "NodeTotalSize": "248.2067,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "PrintTransaction",
+        "FullName": "public void PrintTransaction()",
+        "Symbols": [
+          "Assignment_02.LoanAccount.PrintTransaction()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "35",
+      "ParentId": "1",
+      "Name": "decimal InterestRate",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2023-07-16T20:29:18.9102560Z",
+      "AbsoluteTopLeft": "309.3737,376.4793",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "136.9933,22",
+      "HeaderMinSize": "248.2067,22",
+      "NodeTotalSize": "248.2067,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "InterestRate",
+        "FullName": "private decimal InterestRate",
+        "Symbols": [
+          "Assignment_02.SavingAccount.InterestRate"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "36",
+      "ParentId": "1",
+      "Name": "decimal CalculateInterest()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-07-16T20:29:20.0228261Z",
+      "AbsoluteTopLeft": "309.3737,398.4793",
+      "RelativeTopLeft": "0,22",
+      "HeaderContentSize": "168.74,22",
+      "HeaderMinSize": "248.2067,22",
+      "NodeTotalSize": "248.2067,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "CalculateInterest",
+        "FullName": "public override decimal CalculateInterest()",
+        "Symbols": [
+          "Assignment_02.SavingAccount.CalculateInterest()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "37",
+      "ParentId": "1",
+      "Name": "void ExecuteTransaction(decimal amount)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-07-16T20:29:21.6851953Z",
+      "AbsoluteTopLeft": "309.3737,420.4793",
+      "RelativeTopLeft": "0,44",
+      "HeaderContentSize": "248.2067,22",
+      "HeaderMinSize": "248.2067,22",
+      "NodeTotalSize": "248.2067,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "ExecuteTransaction",
+        "FullName": "public void ExecuteTransaction(decimal amount)",
+        "Symbols": [
+          "Assignment_02.SavingAccount.ExecuteTransaction(System.Decimal)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "38",
+      "ParentId": "1",
+      "Name": "void PrintTransaction()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-07-16T20:29:23.0406974Z",
+      "AbsoluteTopLeft": "309.3737,442.4793",
+      "RelativeTopLeft": "0,66",
+      "HeaderContentSize": "146.7833,22",
+      "HeaderMinSize": "248.2067,22",
+      "NodeTotalSize": "248.2067,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "PrintTransaction",
+        "FullName": "public void PrintTransaction()",
+        "Symbols": [
+          "Assignment_02.SavingAccount.PrintTransaction()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    }
+  ],
+  "Connectors": [
+    {
+      "Id": "1",
+      "SourceNodeId": "1",
+      "TargetNodeId": "4",
+      "Stereotype": "Inheritance",
+      "Route": [
+        "377.3133,324.4793",
+        "196.4741,97.4793"
+      ],
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "Assignment_02.SavingAccount|Inheritance|Assignment_02.BankAccount"
+      }
+    },
+    {
+      "Id": "2",
+      "SourceNodeId": "1",
+      "TargetNodeId": "3",
+      "Stereotype": "Implementation",
+      "Route": [
+        "323.1195,324.4793",
+        "197.891,244.4793"
+      ],
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "Assignment_02.SavingAccount|Implementation|Assignment_02.ITransaction"
+      }
+    },
+    {
+      "Id": "3",
+      "SourceNodeId": "4",
+      "TargetNodeId": "2",
+      "Stereotype": "Association",
+      "Route": [
+        "111.3581,-131.5207",
+        "114.022,-181.5207"
+      ],
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "Assignment_02.BankAccount|Association|Assignment_02.Transaction",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text1": "*",
+              "Text2": "TransactionHistory",
+              "Tooltip": "public List<Transaction> TransactionHistory"
+            },
+            "Symbol": "Assignment_02.BankAccount.TransactionHistory"
+          }
+        ],
+        "TargetLabelCenter": "112.6919,-156.5561"
+      }
+    },
+    {
+      "Id": "4",
+      "SourceNodeId": "5",
+      "TargetNodeId": "4",
+      "Stereotype": "Inheritance",
+      "Route": [
+        "-140.5817,324.4793",
+        "22.8314,97.4793"
+      ],
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "Assignment_02.CheckingAccount|Inheritance|Assignment_02.BankAccount"
+      }
+    },
+    {
+      "Id": "5",
+      "SourceNodeId": "5",
+      "TargetNodeId": "3",
+      "Stereotype": "Implementation",
+      "Route": [
+        "-80.3385,324.4793",
+        "45.6132,244.4793"
+      ],
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "Assignment_02.CheckingAccount|Implementation|Assignment_02.ITransaction"
+      }
+    },
+    {
+      "Id": "6",
+      "SourceNodeId": "7",
+      "TargetNodeId": "4",
+      "Stereotype": "Inheritance",
+      "Route": [
+        "128.477,324.4794",
+        "113.0429,97.4793"
+      ],
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "Assignment_02.LoanAccount|Inheritance|Assignment_02.BankAccount"
+      }
+    },
+    {
+      "Id": "7",
+      "SourceNodeId": "7",
+      "TargetNodeId": "3",
+      "Stereotype": "Implementation",
+      "Route": [
+        "129.2674,324.4794",
+        "124.7251,244.4793"
+      ],
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "Assignment_02.LoanAccount|Implementation|Assignment_02.ITransaction"
+      }
+    },
+    {
+      "Id": "8",
+      "SourceNodeId": "8",
+      "TargetNodeId": "4",
+      "Stereotype": "Association",
+      "Route": [
+        "295.3621,-19.7752",
+        "218.1179,-18.656"
+      ],
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "Assignment_02.Bank|Association|Assignment_02.BankAccount",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text1": "[int]",
+              "Text2": "accounts",
+              "Tooltip": "private Dictionary<int, BankAccount> accounts"
+            },
+            "Symbol": "Assignment_02.Bank.accounts"
+          }
+        ],
+        "TargetLabelCenter": "243.1152,-19.0182"
+      }
+    }
+  ]
+}

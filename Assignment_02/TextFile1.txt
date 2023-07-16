@@ -1,0 +1,104 @@
+﻿using System;
+using System.Collections.Generic;
+
+public class BankAccount
+{
+    private string accountNumber;
+    private string accountHolderName;
+    private decimal balance;
+    private List<Transaction> transactionHistory;
+
+    public string AccountNumber
+    {
+        get { return accountNumber; }
+        private set { accountNumber = value; }
+    }
+
+    public string AccountHolderName
+    {
+        get { return accountHolderName; }
+        private set { accountHolderName = value; }
+    }
+
+    public decimal Balance
+    {
+        get { return balance; }
+        private set { balance = value; }
+    }
+
+    public BankAccount(string accountNumber, string accountHolderName)
+    {
+        AccountNumber = accountNumber;
+        AccountHolderName = accountHolderName;
+        Balance = 0;
+        transactionHistory = new List<Transaction>();
+    }
+
+    public void Deposit(decimal amount)
+    {
+        Deposit(amount, "Regular deposit");
+    }
+
+    public void Deposit(decimal amount, string description)
+    {
+        if (amount <= 0)
+        {
+            Console.WriteLine("Deposit amount should be greater than zero.");
+            return;
+        }
+
+        Balance += amount;
+        transactionHistory.Add(new Transaction("Deposit", amount, description));
+    }
+
+    public void Withdraw(decimal amount)
+    {
+        Withdraw(amount, "Regular withdrawal");
+    }
+
+    public virtual void Withdraw(decimal amount, string description)
+    {
+        if (amount <= 0)
+        {
+            Console.WriteLine("Withdrawal amount should be greater than zero.");
+            return;
+        }
+
+        if (amount > Balance)
+        {
+            Console.WriteLine("Insufficient balance.");
+            return;
+        }
+
+        Balance -= amount;
+        transactionHistory.Add(new Transaction("Withdrawal", -amount, description));
+    }
+
+    public void PrintTransactionHistory()
+    {
+        Console.WriteLine("Transaction History for Account: {0}", AccountNumber);
+        foreach (Transaction transaction in transactionHistory)
+        {
+            Console.WriteLine(transaction);
+        }
+    }
+}
+
+public class Transaction
+{
+    public string TransactionType { get; private set; }
+    public decimal Amount { get; private set; }
+    public string Description { get; private set; }
+
+    public Transaction(string transactionType, decimal amount, string description)
+    {
+        TransactionType = transactionType;
+        Amount = amount;
+        Description = description;
+    }
+
+    public override string ToString()
+    {
+        return $"{TransactionType}: {Amount:C} - {Description}";
+    }
+}
